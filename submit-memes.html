@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-left">
+      <a href="index.html" class="logo">PiNoise<img src="assets\images\noise.png" width="30" height="30"></a>
+    </div>
+    <div class="header-icons">
+      <span class="material-icons">search</span>
+      <span class="material-icons">brightness_2</span>
+    </div>
+    <div class="header-right">
+      <a href="index.html#about">About</a>
+      <a href="#" style="background-color: #0679c5; border: 1px solid #0679c5;">Submit Memes</a>
+    </div>
+  </div>
+  <div class="form">
+    <form>
+      <label for="name">Name</label> <i class="required">*</i>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email</label> <i class="required">*</i>
+      <input type="text" id="email" name="email">
+
+      <label for="file">Video/Image</label> <i class="required">*</i>
+      <input type="file" id="img" name="img" accept="file_extension|video/*|image/*">
+
+      <label for="category">Category</label> <i class="required">*</i>
+      <select id="category" name="category">
+        <option value="" selected disabled hidden>Choose Category</option>
+        <option value="animals">Animals</option>
+        <option value="anime">Anime & Manga</option>
+        <option value="comic">Comic & Webtoon</option>
+        <option value="cosplay">Cosplay</option>
+        <option value="darkhumor">Dark Humor</option>
+        <option value="games">Games</option>
+        <option value="biot">LGBTQIA+</option>
+        <option value="ml">Mobile Legends</option>
+        <option value="wtf">WTF</option>
+        <option value="heartu">Relationship</option>
+        <option value="amongus">Among Us</option>
+        <option value="virus">Coronavirus</option>
+        <option value="social">Tiktok</option>
+      </select>
+
+      <label for="caption">Caption</label>
+      <textarea id="caption" name="caption" placeholder="Write something.."></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="footer" style="padding-top: 9em;">
+    <p>© 2020 PiNoise All Rights Reserved. For External Use Only.</p>
+    <a href="#">Terms of Use</a> | <a href="#">Privacy Statement</a> 
+  </div>
+</body>
+</html>

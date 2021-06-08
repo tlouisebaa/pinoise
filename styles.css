@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0; 
+	font-family: 'Rubik', sans-serif;
+}
+
+body { 
+  margin: 0;
+  font-family: Segoe UI;
+}
+
+.header {
+  background-color: #000000;
+	padding: 5px 5px;
+	display: flex;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+}
+
+.header a {
+	color: #ffffff;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px; 
+}
+
+.header a.logo {
+  font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 4em;
+}
+
+.header-left {
+	display: inline-block;
+	width: 30%;
+}
+
+.header-left img {
+	padding-left: 10px;
+}
+
+.header-right {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	padding: 9px 3em 0 5px;
+} 
+
+.header-icons {
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+	padding-top: 5px;
+}
+
+.header-icons .material-icons {
+	color: #ffffff;
+	font-size: 18px; 
+	padding: 5px 18px;
+}
+
+.header-right a:last-child {
+	border: 1px solid #09f;
+	border-radius: 4px;
+	background-color: #09f;
+	font-weight: 600;
+	padding: 4px;
+}
+
+.main {
+	display: flex;
+	padding-top: 4em;
+}
+
+.side-icons {
+	display: inline-block;
+	width: 10%;
+	text-align: right;
+	padding-right: 10px 14px;
+}
+
+.side-icons .material-icons {
+	display: block;
+	font-size: 20px;
+	padding: 6.5px 6px;
+}
+
+.side-icons .material-icons:last-child:hover {
+	font-weight: 700;
+}
+
+.side-icons img {
+	display: block;
+	height: 25px;
+	width: 25px;
+	padding: 5.5px 4px 2.5px 7.5em;
+}
+
+.side-nav {
+	display: inline-block;
+	width: 15%;
+}
+
+.side-nav a {
+	display: block;
+  text-decoration: none;
+  font-size: 18px;
+	color: #000000;
+	padding: 6px;
+}
+
+.side-nav a:hover {
+  font-weight: 700;
+	font-size: 20px;
+}
+
+.side-nav a:first-child {
+	font-weight: 700;
+	font-size: 20px;
+}
+.side-content {
+	display: inline-block;
+	width: 35%;
+	padding-left: 6em;
+}
+
+.user-profile {
+	display: flex;
+	padding-top: 8px;
+}
+
+.user-img {
+	padding-top: 4px;
+	padding-left: 6px;
+}
+
+.user-img img {
+	border-radius: 50%;
+}
+
+.user-details {
+	padding-left: 15px;
+}
+
+.user-profile a {
+	display: block;
+  text-decoration: none;
+  font-size: 16px;
+	color: #000000;
+}
+
+.meme img {
+	height: 500px;
+	width: 500px;
+	padding-top: 5px;
+}
+
+.meme p {
+	font-size: 21px;
+  padding-top: 9px;
+}
+
+.points-info {
+	font-weight: 300;
+	padding-top: 6px;
+}
+
+.actions {
+	display: flex;
+	padding: 12px 0px;
+}
+
+.btns {
+	display: inline-block;
+}
+
+.btns img {
+	padding: 0px 8px;
+	cursor: pointer;
+}
+
+.links {
+	display: inline-block;
+	padding-left: 9em;
+}
+
+.links a {
+	text-align: right;
+}
+
+.links a img {
+	padding: 0px 10px;
+}
+
+.side-ads {
+	display: inline-block;
+	width: 40%;
+}
+
+#about {
+	padding: 3em 0 3em 0;
+  text-align: center;
+}
+
+#about p {
+  font-size: 16px;
+}
+
+.footer {
+  font-size: 16px;
+  text-align: center;
+  left: 0;
+	padding-bottom: 30px;
+  width: 100%;
+}
+
+.form {
+	padding: 6em 0 3em 0;
+	width: 25%;
+	margin: auto;
+}
+
+.form .required {
+	color: red;
+}
+
+.form input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form input[type=file] {
+  width: 100%;
+  padding: 0px 0px 12px 0px;
+  margin: 8px 0;
+}
+
+.form input[type=submit] {
+  width: 35%;
+  background-color: #09f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+.form input[type=submit]:hover {
+  background-color: #0679c5;
+}
